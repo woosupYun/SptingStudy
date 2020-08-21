@@ -27,6 +27,7 @@ public class TimeMapperTests {
 		assertNotNull(timeMapper);
 		log.info(timeMapper.getClass().getName());
 		log.info(timeMapper.getTime());
+		log.info(timeMapper.getTime2());
 	}
 
 }
